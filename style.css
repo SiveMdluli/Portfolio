@@ -27,8 +27,7 @@ header {
 }
 
 .humburger {
-  margin: 6rem;
-  padding-left: 78px;
+  margin-right: 90px;
 }
 
 #nav-items {
@@ -78,15 +77,20 @@ header {
 }
 
 .connect {
+  display: flex;
+  box-sizing: border-box;
+  flex-wrap: wrap;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   text-decoration: none;
   font-size: 16px;
   font-weight: 500;
   margin: 0 20px;
-  color: #7f8cff;
   order: 2;
   line-height: 24px;
+  color: #7f8cff;
+  flex-grow: 0;
+  overflow-x: hidden;
 }
 
 .twitter:hover,
