@@ -26,8 +26,10 @@ header {
   text-decoration: none;
 }
 
+/* margin-right: 90px;  OR 5 */
 .humburger {
-  margin-right: 90px;
+  cursor: pointer;
+  margin-right: 5px;
 }
 
 #nav-items {
@@ -114,6 +116,7 @@ header {
   gap: 8px;
   order: 3;
 }
+
 /* ----The Work Section */
 .work {
   background: #e5e5e5;
@@ -128,7 +131,7 @@ header {
   align-items: center;
   padding: 16px;
   gap: 12px;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   width: 327px;
@@ -151,7 +154,7 @@ header {
   width: 295px;
   height: 36px;
   margin-top: 0;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -173,17 +176,17 @@ header {
 }
 
 .description {
-width: 295px;
-height: 50px;
-margin-top: 0;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 24px;
-color: #344563;
-flex: none;
-flex-grow: 0;
+  width: 295px;
+  height: 50px;
+  margin-top: 0;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  flex: none;
+  flex-grow: 0;
 }
 
 .languages-list {
@@ -196,8 +199,7 @@ flex-grow: 0;
   height: 20px;
   list-style: none;
   order: 2;
-  padding: -50px;
-  margin-top: -90px;
+  margin-top: -110px;
   margin-bottom: 0;
   margin-left: -90px;
   margin-right: 0;
@@ -253,6 +255,7 @@ flex-grow: 0;
   font-weight: 500;
   letter-spacing: 0.48px;
 }
+
 .see-button {
   box-sizing: border-box;
   border: 1px solid #6070ff;
@@ -269,7 +272,7 @@ flex-grow: 0;
   width: 127.04px;
   bottom: 10px;
   margin-left: -170px;
-  margin-top: 60px;
+  margin-top: 70px;
   padding: 0;
   gap: 10px;
   letter-spacing: 0.48px;
