@@ -1,7 +1,9 @@
 body {
   background-color: #fff;
-  overflow-x: hidden;
 
+  /* background: #e5e5e5; */
+  width: 100%;
+  overflow-x: hidden;
 }
 
 header {
@@ -32,7 +34,7 @@ header {
 /* margin-right: 90px;  OR 5 */
 .humburger {
   cursor: pointer;
-  margin-right: 5px;
+  margin-right: 100px;
 }
 
 #nav-items {
@@ -299,12 +301,13 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* border-radius: 50px; */
+  border-radius: 50px;
   width: 375px;
-  height: 1263px;
+  height: 1030px;
   left: 375px;
   top: 4769px;
-  background: #fff; 
+  background: #fff;
+  gap: 12px;
 }
 
 .about-h1 {
@@ -317,28 +320,26 @@ header {
   line-height: 52px;
   display: flex;
   align-items: center;
-  color: #172B4D;
+  color: #172b4d;
   flex: none;
-  /* order: 0; */
   flex-grow: 0;
+  margin: 6px;
 }
 
 .info-summary {
   width: 327px;
-height: 144px;
-font-family: 'Poppins', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-margin-top: -15px;
-color: #344563;
-flex: none;
-/* order: 1; */
-flex-grow: 0;
+  height: 144px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: -15px;
+  color: #344563;
+  flex: none;
+  flex-grow: 0;
 }
 
-/* Connect button>ORDER */
 .connect2 {
   display: flex;
   box-sizing: border-box;
@@ -369,16 +370,6 @@ flex-grow: 0;
   margin-right: 30px;
   margin-top: -5px;
   gap: 8px;
-  /* order: 3; */
-}
-
-.twitter:hover,
-.linkedin:hover,
-.github:hover,
-.medium:hover,
-.angel:hover {
-  color: #505f79;
-  opacity: 0.5;
 }
 
 .see-button2 {
@@ -443,12 +434,12 @@ flex-grow: 0;
   margin-right: 70px;
 }
 
-.down-arrow { 
+.down-arrow {
   position: absolute;
   margin-top: 30px;
   margin-right: -70px;
   margin-left: 200px;
-  color: #5e6c84
+  color: #5e6c84;
 }
 
 .language-list-container {
@@ -538,6 +529,7 @@ flex-grow: 0;
   align-items: center;
   color: #253858;
 }
+
 .css2 {
   width: 330px;
   height: 66.72px;
@@ -591,13 +583,13 @@ flex-grow: 0;
   line-height: 24px;
   display: flex;
   align-items: center;
-  color: #000000;
+  color: #000;
 }
 
 .right-arrow {
   margin-top: 3px;
   margin-left: 275px;
-  color: #5e6c84
+  color: #5e6c84;
 }
 
 #skills {
@@ -619,11 +611,11 @@ flex-grow: 0;
   line-height: 24px;
   display: flex;
   align-items: center;
-  color: #000000;
+  color: #000;
 }
 
 .right-arrow2 {
   margin-top: 3px;
   margin-left: 275px;
-  color: #5e6c84
+  color: #5e6c84;
 }
